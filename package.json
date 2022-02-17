@@ -4,8 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^17.0.18",
+    "@types/ws": "^8.2.2",
     "fastify": "^3.27.1",
     "fastify-websocket": "^4.0.0",
+    "pino": "^7.8.0",
     "redis": "^4.0.3",
     "ts-node": "^10.5.0",
     "typescript": "^4.5.5"
