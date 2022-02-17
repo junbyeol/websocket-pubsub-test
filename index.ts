@@ -35,7 +35,7 @@ async function setup() {
     })
   });
 
-  app.listen(5000, '0.0.0.0', (err, address) => {
+  app.listen(5000, '0.0.0.0', (err, address) => { //포트 번호를 바꿔가며, 서버를 여러개 띄워서 테스트해볼것!
     if (err) {
       app.log.error(err);
       process.exit(1);
